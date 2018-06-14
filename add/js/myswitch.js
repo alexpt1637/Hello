@@ -18,7 +18,15 @@ switch(sum){
         break;
 }
 
-var pension = 41300 * 12;
-var sum = sum * 12;
-var sumyar = sum + pension;
-alert('Годовой доход равен ' + sumyar + ' руб.: \nЗарплата ' + sum + ' и ' + pension + ' руб.');
+var pension = 400 * 12;
+var summ = sum * 12;
+var sumyar = summ + pension;
+alert('Годовой доход равен ' + sumyar + ' руб.: \nЗарплата ' + summ + ' и ' + pension + ' руб.');
+
+// Тернарная операция
+// В зависимости от условия тернарная операция возвращает второй или третий операнд
+// если условие равно true, то возвращается второй операнд; если условие равно false, то третий
+var a = sum;
+var b = 200;
+var result = a <= b ? a + b : a - b;
+alert('result = ' + result);
