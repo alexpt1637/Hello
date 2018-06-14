@@ -28,14 +28,14 @@ var people = [
         ["Alice", 21, false]
 ];
  
-alert("people[0] = " + people[0]); // ["Tom", 25, false]
-alert("people[1] = " + people[1]); // ["Bill", 38, true]
+//alert("people[0] = " + people[0]); // ["Tom", 25, false]
+//alert("people[1] = " + people[1]); // ["Bill", 38, true]
 
 people[0][1] = 56; 		// присваиваем отдельное значение
-alert("people[0][1] = " + people[0][1]); 	// 56
+//alert("people[0][1] = " + people[0][1]); 	// 56
      
 people[1] = ["Bob", 29, false]; // присваиваем массив
-alert("people[1][0] = " + people[1][0]); 			// Bob
+//alert("people[1][0] = " + people[1][0]); 			// Bob
 
 var numbers = [];
 numbers[0] = []; // теперь numbers - двумерный массив

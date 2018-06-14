@@ -24,7 +24,7 @@ var z = x * y;
 
 // Также мы можем внутри стоки использовать другой тип кавычек:
 var companyName = 'Бюро "Рога и копыта"';
-alert(companyName);
+//alert(companyName);
 console.log(companyName);		// Для вывода различного рода информации в консоли браузера
 document.write(companyName);	// Программа выводит результат операции напрямую на веб-страницу
 
